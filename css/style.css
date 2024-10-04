@@ -1,0 +1,101 @@
+/*Generals*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*custom properties*/
+:root {
+    --dark: rgb(35, 39, 42);
+    --blue: rgb(37, 94, 233);
+    --light: rgb(246, 246, 246);
+    --purple: rgb(116, 138, 219);
+}
+
+body {
+    font-family: 'Whitney', sans-serif;
+}
+
+.debug {
+    border: 1px solid red;
+}
+
+.bg-blue {
+    background-color: var(--blue);
+}
+
+.bg.light {
+    background-color: var(--light);
+}
+
+.bg.dark {
+    background-color: var(--dark);
+}
+
+.contrast {
+    background-color: var(--purple);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/*Utility flex*/
+
+.flex-box {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+/*header*/
+
+header {
+    height: 50px;
+}
+
+.text-white {
+    color: white;
+}
+
+/*main*/
+
+.width1 {
+    width: 60%;
+}
+
+.width2 {
+    width: 40%;
+}
+
+/*footer*/
+footer {
+    background-color: var(--dark);
+    height: 300px;
+}
