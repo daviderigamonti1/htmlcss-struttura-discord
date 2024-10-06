@@ -115,6 +115,10 @@ header div button {
     margin: auto;
 }
 
+.content {
+    max-width: 80%;
+}
+
 .button {
     border-radius: 40px;
     height: 40px;
@@ -134,6 +138,9 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.gap {
+    gap: 10px;
 }
 
 /*footer*/
