@@ -38,14 +38,25 @@ body {
     background-color: var(--purple);
 }
 
+.text-white {
+    color: white;
+}
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    width: 1200px;
+    padding: 10px 0;
 }
 
 ul {
     list-style: none;
+}
+
+.padding {
+    padding: 50px 200px;
+}
+
+.inline-block {
+    display: inline-block;
 }
 
 
@@ -76,13 +87,22 @@ ul {
 }
 /*header*/
 
-header {
-    height: 50px;
-}
-
 .text-white {
     color: white;
 }
+
+div ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+header div button {
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    border-style: none;
+}
+
 
 /*main*/
 
@@ -94,8 +114,15 @@ header {
     width: 40%;
 }
 
+.button {
+    border-radius: 40px;
+    height: 40px;
+}
+
+
 /*footer*/
 footer {
     background-color: var(--dark);
+    color: white;
     height: 300px;
 }
