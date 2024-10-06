@@ -51,10 +51,6 @@ ul {
     list-style: none;
 }
 
-.padding {
-    padding: 50px 200px;
-}
-
 .inline-block {
     display: inline-block;
 }
@@ -114,11 +110,31 @@ header div button {
     width: 40%;
 }
 
+.container-small {
+    max-width: 800px;
+    margin: auto;
+}
+
 .button {
     border-radius: 40px;
     height: 40px;
+    border-style: none;
+    padding: 10px 5px;
 }
 
+h1 {
+    padding-bottom: 20px;
+    font-size: xx-large;
+}
+
+.bg-image {
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+    height: 525px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /*footer*/
 footer {
