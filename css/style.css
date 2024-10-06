@@ -26,11 +26,11 @@ body {
     background-color: var(--blue);
 }
 
-.bg.light {
+.bg-light {
     background-color: var(--light);
 }
 
-.bg.dark {
+.bg-dark {
     background-color: var(--dark);
 }
 
